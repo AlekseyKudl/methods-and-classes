@@ -14,6 +14,9 @@ public class Main {
                 +" "+ sorok.getYearOfPublication());
         System.out.println(ostrov.getBookName()+" "+ ostrov.getAuthorName()+" "+ ostrov.getAuthorSurname()
                 +" "+ ostrov.getYearOfPublication());
+        System.out.println(sorok);
+        System.out.println(vern);
+        System.out.println(sorok.equals(ostrov));
 
 
     }
